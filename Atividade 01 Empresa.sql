@@ -5,7 +5,7 @@ USE db_empresa;
 CREATE TABLE tb_colaboradores(
     id BIGINT AUTO_INCREMENT,
 	nome VARCHAR(255) NOT NULL,
-	genero VARCHAR(255),
+	idade VARCHAR(255),
     aniversario DATE,
 	salario DECIMAL (7,2) NOT NULL,
     cargo VARCHAR(255) NOT NULL,
